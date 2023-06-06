@@ -1,3 +1,7 @@
+body {
+    font-family: 'Roobek', sans-serif;
+  }
+  
 /*cabeçalho*/
 header img {
     height: 70px;
@@ -12,6 +16,7 @@ header img {
   /* Cor personalizada para os links do navbar */
   .navbar-custom .nav-link {
     color: #000000;
+    font-family: 'Roobek', sans-serif;
   }
   
   /* Cor personalizada para o hover nos links do navbar */
