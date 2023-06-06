@@ -4,12 +4,48 @@ header img {
     width: 70px;
 }
 
+/* Cor personalizada para o navbar */
+.navbar-custom {
+    background-color: #E9ECEF;
+  }
+  
+  /* Cor personalizada para os links do navbar */
+  .navbar-custom .nav-link {
+    color: #000000;
+  }
+  
+  /* Cor personalizada para o hover nos links do navbar */
+  .navbar-custom .nav-link:hover {
+    color: #3F5585;
+  }
+  
+  /* Cor personalizada para o link selecionado do navbar */
+  .navbar-custom .nav-link.active {
+    color: #6A2C47;
+  }
+  
+
 /*Conteudo principal*/
 
 main {
     min-height: 500px;
 }
 
+/* Cor personalizada para os botões */
+.btn-custom {
+    color: white;
+    background-color: #3F5585;
+    border-color: #3F5585; /* Define a cor da borda */
+  }
+  
+  /* Cor personalizada para o hover */
+  .btn-custom:hover {
+    color: white;
+    background-color: #6A2C47;
+    border-color: #6A2C47; /* Define a cor da borda no hover */
+  }
+  
+  
 /*banner*/
 
 #section-banners img {
@@ -64,6 +100,19 @@ footer p {
     bottom: 5px;
     right: 50px;
  }
+
+/* Cor personalizada para o botão "Voltar ao topo" */
+.btn-custom-vat {
+    color: #3F5585;
+    border-color: #3F5585;
+  }
+  
+  /* Cor personalizada para o hover no botão "Voltar ao topo" */
+  .btn-custom-vat:hover {
+    background-color: #3F5585;
+    border-color: #3F5585;
+  }
+  
 
 /********** página de login  */
 
