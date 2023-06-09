@@ -10,12 +10,12 @@ header img {
 
 /* Cor personalizada para o navbar */
 .navbar-custom {
-    background-color: #E9ECEF;
+    background-color: #cfcfcf;
   }
   
   /* Cor personalizada para os links do navbar */
   .navbar-custom .nav-link {
-    color: #000000;
+    color: #353535;
     font-family: 'Roobek', sans-serif;
   }
   
@@ -25,7 +25,7 @@ header img {
   }
   
   /* Cor personalizada para o link selecionado do navbar */
-  .navbar-custom .nav-link.active {
+  .navbar-custom .nav-link .active {
     color: #6A2C47;
   }
   
@@ -123,7 +123,8 @@ footer p {
 
 #section-login {
     margin-top: 100px;
-}
+    font-family: 'Roobek', sans-serif;
+    }
 
 #section-login h1 {
     text-align: center;
@@ -140,6 +141,7 @@ footer p {
     padding: 5px;
     text-align: center;
     background-color: #fff;
+    font-family: 'Roobek', sans-serif;
 }
 
 #form-cadastrar {
